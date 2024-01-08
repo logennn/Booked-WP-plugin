@@ -1,0 +1,2992 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Booked Appointments\n"
+"POT-Creation-Date: 2017-10-19 15:17+0200\n"
+"PO-Revision-Date: 2017-10-19 16:51+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: booked.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hu_HU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: booked.php:237
+msgid "Every Five Minutes"
+msgstr "Minden 5 percben"
+
+#: booked.php:485 includes/ajax/admin/user-info.php:104
+msgid "Phone Number"
+msgstr "Telefonszám"
+
+#: booked.php:495 booked.php:510 booked.php:511 booked.php:707
+#: post-types/booked_appointments.php:30 post-types/booked_appointments.php:32
+#: post-types/booked_appointments.php:48
+msgid "Appointments"
+msgstr "Időpontok"
+
+#: booked.php:496 booked.php:512
+msgid "Pending"
+msgstr "Függő"
+
+#: booked.php:497 booked.php:514
+msgid "Calendars"
+msgstr "Naptárak"
+
+#: booked.php:498 booked.php:516 booked.php:974 templates/settings.php:638
+msgid "Settings"
+msgstr "Beállítások"
+
+#: booked.php:499 booked.php:975
+msgid "What's New?"
+msgstr "Újdonságok"
+
+#: booked.php:538 booked.php:546 booked.php:554
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs engedélye ezen oldal eléréséhez."
+
+#: booked.php:587
+#, php-format
+msgid ""
+"You need to create a page with the %s shortcode. It is required with your "
+"current settings."
+msgstr ""
+"Készítsen egy oldalt a következő rövid kóddal: %s . Ez az aktuális "
+"Beállításokhoz szükséges."
+
+#: booked.php:587
+msgid "Create a Page"
+msgstr "Hozzon létre egy oldalt"
+
+#: booked.php:587
+msgid "Change Settings"
+msgstr "Beállítások megváltoztatása"
+
+#: booked.php:605
+#, php-format
+msgid "There is %s pending appointment."
+msgid_plural "There are %s pending appointments."
+msgstr[0] "%s függőben lévő időpontja van."
+msgstr[1] "%s függőben lévő időpontja van."
+
+#: booked.php:605
+msgid "View Pending Appointment"
+msgid_plural "View Pending Appointments"
+msgstr[0] "A függőben lévő időpont megtekintése."
+msgstr[1] "A függőben lévő időpont megtekintése."
+
+#: booked.php:620 booked.php:665
+msgid "Assign this calendar to"
+msgstr "A naptár hozzárendelése:"
+
+#: booked.php:622 booked.php:669
+#: includes/ajax/front/appointment-form/bookings.php:67
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: booked.php:643 booked.php:680
+msgid "This will use your setting from the Booked Settings panel by default."
+msgstr ""
+"Booked Beállítások panelen használt beállításokat fogja alapértelmezettnek "
+"tekinteni."
+
+#: booked.php:741 includes/shortcodes.php:253
+msgid "Upcoming Appointment"
+msgid_plural "Upcoming Appointments"
+msgstr[0] "Közelgő időpont"
+msgstr[1] "Közelgő időpontok"
+
+#: booked.php:754
+msgid "and"
+msgstr "és"
+
+#: booked.php:754
+msgid "more"
+msgstr "több"
+
+#: booked.php:801 includes/admin-functions.php:255
+#: includes/ajax/init_admin.php:870 templates/settings.php:1341
+msgid "Space Available"
+msgid_plural "Spaces Available"
+msgstr[0] "Szabad időpont"
+msgstr[1] "Szabad időpontok"
+
+#: booked.php:802 includes/ajax/init_admin.php:862 templates/settings.php:1333
+msgid "Spaces Available"
+msgstr "Szabad időpontok"
+
+#: booked.php:803 includes/admin-functions.php:207 templates/settings.php:1434
+#: templates/settings.php:1439
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: booked.php:804
+msgid "The \"End Time\" needs to be later than the \"Start Time\"."
+msgstr ""
+"A \"Záró időpont\"-nak később kell végződnie, mint a \"Kezdő időpont\"-nak."
+
+#: booked.php:805
+msgid "Are you sure you want to add those bulk time slots?"
+msgstr "Biztosan hozzá szeretné adni ezeket a csoportos időpontokat?"
+
+#: booked.php:806
+msgid "All fields are required."
+msgstr "Minden mező kitöltése kötelező."
+
+#: booked.php:807
+msgid "You are about to add the following time slot(s)"
+msgstr "Az itt következő alkalmakat fogja hozzáadni"
+
+#: booked.php:808 includes/admin-functions.php:36
+#: includes/ajax/admin/user-info.php:46
+msgid "to"
+msgstr "to"
+
+#: booked.php:809 booked.php:884
+msgid "Please wait ..."
+msgstr "Kérjük, várjon ..."
+
+#: booked.php:810 includes/ajax/admin/user-info.php:124
+msgid "Update Appointment"
+msgstr "Időpont frissítése"
+
+#: booked.php:811 includes/ajax/admin/appointment-form.php:119
+msgid "Create Appointment"
+msgstr "Időpont létrehozása"
+
+#: booked.php:812 includes/admin-functions.php:34
+#: includes/admin-functions.php:61 includes/admin-functions.php:247
+#: includes/admin-functions.php:793 includes/ajax/admin/appointment-form.php:18
+#: includes/ajax/admin/user-info.php:44
+#: includes/ajax/front/appointment-form/appointment.php:22
+#: includes/ajax/init_admin.php:882 includes/dashboard-widget.php:166
+#: includes/functions.php:800 includes/functions.php:1152
+#: includes/mailer_functions.php:115 includes/shortcodes.php:308
+#: templates/pending-list.php:170 templates/settings.php:1353
+msgid "All day"
+msgstr "Egész nap"
+
+#: booked.php:813
+msgid "Please choose a customer."
+msgstr "Válasszon felhasználót."
+
+#: booked.php:814 booked.php:886
+msgid "Please fill out all required fields."
+msgstr "Kérjük, töltse ki a kötelező mezőket."
+
+#: booked.php:815
+msgid "Are you sure you want to delete this time slot?"
+msgstr "Biztosan törölni szeretné ezt az alkalmat?"
+
+#: booked.php:816
+msgid "Are you sure you want to delete this custom time slot?"
+msgstr "Biztosan törölni szeretné ezt az egyéni alkalmat?"
+
+#: booked.php:817 booked.php:883
+msgid "Are you sure you want to cancel this appointment?"
+msgstr "Biztosan törölni szeretné ezt az időpontot?"
+
+#: booked.php:818
+msgid "A name, email address and password are required."
+msgstr "A név, e-mail cím és jelszó kitöltése kötelező."
+
+#: booked.php:819
+msgid "A name is required."
+msgstr "A név kitöltése kötelező."
+
+#: booked.php:820
+msgid "A first and last name are required."
+msgstr "A vezetéknév és keresztnév kitöltése kötelező."
+
+#: booked.php:821
+msgid "A first name, last name and email address are required."
+msgstr "A vezetéknév, keresztnév és e-mail cím kitöltése kötelező."
+
+#: booked.php:822
+msgid "A name and an email address are required."
+msgstr "A név és e-mail cím kitöltése kötelező."
+
+#: booked.php:823
+msgid "Are you sure you want to approve this appointment?"
+msgstr "Biztosan jóváhagyja ezt az időpontot?"
+
+#: booked.php:824
+msgid "Are you sure you want to approve ALL pending appointments?"
+msgstr "Biztosan jóváhagyja az ÖSSZES folyamatban lévő időpontot?"
+
+#: booked.php:825
+msgid "Are you sure you want to delete ALL pending appointments?"
+msgstr "Biztos benne, hogy törölni akarja az ÖSSZES függőben lévő időpontot?"
+
+#: booked.php:826
+msgid "Are you sure you want to delete all PASSED pending appointments?"
+msgstr ""
+"Biztos benne, hogy törölni akarja az összes LEJÁRT függőben lévő időpontot?"
+
+#: booked.php:885
+msgid "Wrong username/password combination."
+msgstr "Helytelen felhasználónév vagy jelszó."
+
+#: booked.php:887
+msgid "Please enter your name to book an appointment."
+msgstr "Kérjük, adja meg a nevét egy időpont foglalásához."
+
+#: booked.php:888
+msgid ""
+"Please enter your name, your email address and choose a password to book an "
+"appointment."
+msgstr ""
+"Kérjük, adja meg a nevét, az e-mail címét, és válasszon egy jelszót az "
+"időpont foglalásához."
+
+#: booked.php:889
+msgid "Please fill in all \"Information\" fields."
+msgstr "Kérjük, töltse ki az összes \"Információ\" mezőt."
+
+#: booked.php:890
+msgid "Please check your email for instructions on resetting your password."
+msgstr ""
+"Kérjük, tekintse meg e-mail fiókját további instrukcióért a jelszó "
+"visszaállításához."
+
+#: booked.php:891
+msgid "That username or email is not recognized."
+msgstr "Ez a felhasználónév vagy e-mail nem felismerhető."
+
+#: booked.php:945
+msgid "Booking Agent"
+msgstr "Foglaló ügynök"
+
+#: class-tgm-plugin-activation.php:334 class-tgm-plugin-activation.php:335
+msgid "Install Add-Ons"
+msgstr "Kiegészítők telepítése"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Add-On: %s"
+msgstr "Kiegészítők telepítése: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Add-On: %s"
+msgstr "Kiegészítők frissítése: %s"
+
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Valami hiba merült fel az API-val."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:343
+#, php-format
+msgid "Booked requires the following add-on: %1$s."
+msgid_plural "Booked requires the following add-ons: %1$s."
+msgstr[0] "A Booked a következő kiegészítőt igényli: %1$s."
+msgstr[1] "A Booked a következő kiegészítőket igényli: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:349
+#, php-format
+msgid "Booked recommends the following add-on: %1$s."
+msgid_plural "Booked recommends the following add-ons: %1$s."
+msgstr[0] "A Booked a következő kiegészítőt ajánlja: %1$s."
+msgstr[1] "A Booked a következő kiegészítőket ajánlja: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following add-on needs to be updated to its latest version to ensure "
+"maximum compatibility with Booked: %1$s."
+msgid_plural ""
+"The following add-ons need to be updated to their latest version to ensure "
+"maximum compatibility with Booked: %1$s."
+msgstr[0] ""
+"A következő bővítményt a legújabb verzióra kell frissíteni, ahhoz hogy "
+"maximálisan kompatibilis legyen a Booked pluginnal: %1$s."
+msgstr[1] ""
+"A következő bővítményeket a legújabb verzióra kell frissíteni, ahhoz hogy "
+"maximálisan kompatibilis legyen a Booked pluginnal: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following add-ons: %1$s."
+msgstr[0] "Frissítés elérhető a következőhöz: %1$s."
+msgstr[1] "Frissítések elérhetők a következőkhöz: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required add-on is currently inactive: %1$s."
+msgid_plural "The following required add-ons are currently inactive: %1$s."
+msgstr[0] "A következő szükséges kiegészítő jelenleg inaktív: %1$s."
+msgstr[1] "A következő szükséges kiegészítők jelenleg inaktívak: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended add-on is currently inactive: %1$s."
+msgid_plural "The following recommended add-ons are currently inactive: %1$s."
+msgstr[0] "A következő szükséges kiegészítők jelenleg inaktívak: %1$s."
+msgstr[1] "A következő ajánlott kiegészítők jelenleg inaktívak: %1$s."
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin installing add-on"
+msgid_plural "Begin installing add-ons"
+msgstr[0] "A kiegészítő telepítésének elkezdése"
+msgstr[1] "A kiegészítők telepítésének elkezdése"
+
+#: class-tgm-plugin-activation.php:383
+msgid "Begin updating add-on"
+msgid_plural "Begin updating add-ons"
+msgstr[0] "A kiegészítő frissítésének elkezdése"
+msgstr[1] "A kiegészítők frissítésének elkezdése"
+
+#: class-tgm-plugin-activation.php:388
+msgid "Begin activating add-on"
+msgid_plural "Begin activating add-ons"
+msgstr[0] "A kiegészítő aktiválása"
+msgstr[1] "A kiegészítők aktiválása"
+
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Add-On Installer"
+msgstr "Visszatérés az kiegészítő telepítőhöz"
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Visszatérés a Vezérlőpulthoz"
+
+#: class-tgm-plugin-activation.php:394
+msgid "Add-on activated successfully."
+msgstr "Bővítmény aktiválása sikeres."
+
+#: class-tgm-plugin-activation.php:395
+msgid "The following add-on was activated successfully:"
+msgstr "A következő bővítményt sikeresen aktiválta:"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Add-on %1$s was already active."
+msgstr "Nincs intézkedés. A(z) %1$s bővítmény már aktív volt."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Add-on not activated. A higher version of %s is needed for Booked. Please "
+"update the add-on."
+msgstr ""
+"A bővítmény nincs aktiválva, mert frissebb verzió szükséges a Booked-hoz. "
+"Kérlek frissítsd a %s kiegészítőt."
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All add-ons installed and activated successfully. %1$s"
+msgstr "Minden kiegészítő telepítve és aktiválva van. %1$s"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Értesítés elutasítása"
+
+#: class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended add-ons to install, update or "
+"activate."
+msgstr ""
+"Egy vagy több szükséges, illetve ajánlott kiegészítő vár telepítésre, "
+"frissítésre vagy aktiválásra."
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Kérjük, lépjen kapcsolatba az oldal adminisztrátorával."
+
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Ezt a bővítményt frissíteni kell ahhoz, hogy kompatibilis legyen a témával."
+
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Frissítés szükséges"
+
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Állítsa be a parent_slug konfigurációs változót."
+
+#: class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"A távoli bővítménycsomag nem tartalmaz egy mappát a kívánt slug-gal, és az "
+"átnevezés nem működött."
+
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Kérjük, forduljon a plugin szolgáltatójához, és kérje meg őket, hogy "
+"csomagolja be a plugint a WordPress irányelvek szerint."
+
+#: class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"A távoli plugin csomag több fájlból áll, de a fájlok nincsenek mappába "
+"csomagolva."
+
+#: class-tgm-plugin-activation.php:1214 class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "és"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "BOOKEDPA v%s"
+msgstr "BOOKEDPA v%s"
+
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Kötelező"
+
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress tárhely"
+
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Külső forrás"
+
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Előre csomagolt"
+
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Nem telepített"
+
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Telepítve, de nincs aktiválva"
+
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktív"
+
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "A szükséges frissítés nem érhető el"
+
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Frissítésre szorul"
+
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Frissítés javasolt"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Összesen <span class=\"count\">(%s)</span>"
+msgstr[1] "Összesen <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Installálásra vár <span class=\"count\">(%s)</span>"
+msgstr[1] "Installálásra vár <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Frissítés elérhető <span class=\"count\">(%s)</span>"
+msgstr[1] "Frissítés elérhető <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktiválásra vár <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktiválásra vár <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installált verzió:"
+
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimálisan igényelt verzió:"
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Elérhető verzió:"
+
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Egy bővítményt sem kell installálni, frissíteni vagy aktiválni."
+
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Bővítmény"
+
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Forrás"
+
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Típus"
+
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Verzió"
+
+#: class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Státusz"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Install %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s frissítése"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s aktiválása"
+
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Frissítési üzenet a bővítmény szerzőjétől:"
+
+#: class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Telepítés"
+
+#: class-tgm-plugin-activation.php:2816 includes/functions.php:1829
+msgid "Update"
+msgstr "Frissítés"
+
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktiválás"
+
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Egy bővítmény sem lett kiválasztva a telepítéshez. Nem történt intézkedés."
+
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Egy bővítmény sem lett kiválasztva a frissítéshez. Nem történt intézkedés."
+
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Jelenleg egy bővítmény sem elérhető a telepítéshez."
+
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Jelenleg egy bővítmény sem elérhető a frissítéshez."
+
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Egy bővítmény sem lett kiválasztva az aktiváláshoz. Nem történt intézkedés."
+
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Jelenleg egy bővítmény sem elérhető az aktiváláshoz."
+
+#: class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "A következő bővítményt sikeresen aktiválta:"
+msgstr[1] "A következő bővítményeket sikeresen aktiválta:"
+
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "A bővítmény aktiválása sikertelen."
+
+#: class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "A bővítmény aktiválása sikeres."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Bővítmény frissítése %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Egy hiba merült fel a(z) %1$s: <strong>%2$s</strong> telepítése közben."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "A(z) %1$s telepítése sikertelen"
+
+#: class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"A telepítési és aktiválási folyamat megkezdődött. Ez eltarthat egy ideig, "
+"ezért legyen türelmes."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "Sikeresen telepítettük és aktiváltuk: %1$s"
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Részletek mutatása"
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Részletek elrejtése"
+
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Minden telepítés és aktiválás befejeződött."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Bővítmény telepítése és aktiválása %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"A telepítési folyamat megkezdődött. Ez eltarthat egy ideig, ezért legyen "
+"türelmes."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "A(z) %1$s telepítése sikeres."
+
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Minden telepítés befejeződött."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Bővítmény telepítése %1$s (%2$d/%3$d)"
+
+#: includes/admin-functions.php:51
+#, php-format
+msgid "%d Space Available"
+msgid_plural "%d Spaces Available"
+msgstr[0] "%d szabad időpont"
+msgstr[1] "%d szabad időpont"
+
+#: includes/admin-functions.php:53 includes/admin-functions.php:70
+msgid "Full"
+msgstr "Megtelt"
+
+#: includes/admin-functions.php:63
+#, php-format
+msgid "%s to %s"
+msgstr "%s to %s"
+
+#: includes/admin-functions.php:82
+msgid "New"
+msgstr "Új"
+
+#: includes/admin-functions.php:83
+msgid "Fixed"
+msgstr "Rögzített"
+
+#: includes/admin-functions.php:89
+msgid "What's new in this update?"
+msgstr "Mi lett új a frissítésben?"
+
+#: includes/admin-functions.php:107 includes/admin-functions.php:130
+msgid "Title (optional)"
+msgstr "Cím (opcionális)"
+
+#: includes/admin-functions.php:108 includes/admin-functions.php:131
+msgid "Start time ..."
+msgstr "Kezdő időpont"
+
+#: includes/admin-functions.php:109 includes/admin-functions.php:132
+msgid "End time ..."
+msgstr "Záró időpont"
+
+#: includes/admin-functions.php:133
+msgid "Time between ..."
+msgstr "Idő közte ..."
+
+#: includes/admin-functions.php:134
+msgid "Appt Length ..."
+msgstr "Időp. hossz..."
+
+#: includes/admin-functions.php:135
+msgid "# of Each ..."
+msgstr "# egyes ..."
+
+#: includes/admin-functions.php:154
+msgid "All Day"
+msgstr "Egész nap"
+
+#: includes/admin-functions.php:160
+msgid "night"
+msgstr "este"
+
+#: includes/admin-functions.php:183
+msgid "Sunday"
+msgstr "Vasárnap"
+
+#: includes/admin-functions.php:184
+msgid "Monday"
+msgstr "Hétfő"
+
+#: includes/admin-functions.php:185
+msgid "Tuesday"
+msgstr "Kedd"
+
+#: includes/admin-functions.php:186
+msgid "Wednesday"
+msgstr "Szerda"
+
+#: includes/admin-functions.php:187
+msgid "Thursday"
+msgstr "Csütörtök"
+
+#: includes/admin-functions.php:188
+msgid "Friday"
+msgstr "Péntek"
+
+#: includes/admin-functions.php:189
+msgid "Saturday"
+msgstr "Szombat"
+
+#: includes/admin-functions.php:222 includes/ajax/init_admin.php:839
+msgid "No time slots."
+msgstr "Nincs időpont."
+
+#: includes/admin-functions.php:276 templates/settings.php:292
+msgid "Every 1 hour"
+msgstr "Minden órában"
+
+#: includes/admin-functions.php:277
+msgid "Every 1 hour, 30 minutes"
+msgstr "Minden másfél órában"
+
+#: includes/admin-functions.php:278 templates/settings.php:291
+msgid "Every 2 hours"
+msgstr "Minden 2 órában"
+
+#: includes/admin-functions.php:279
+msgid "Every 45 minutes"
+msgstr "Minden 45 percben"
+
+#: includes/admin-functions.php:280 templates/settings.php:293
+msgid "Every 30 minutes"
+msgstr "Minden 30 percben"
+
+#: includes/admin-functions.php:281
+msgid "Every 20 minutes"
+msgstr "Minden 20 percben"
+
+#: includes/admin-functions.php:282 templates/settings.php:294
+msgid "Every 15 minutes"
+msgstr "Minden 15 percben"
+
+#: includes/admin-functions.php:283 templates/settings.php:295
+msgid "Every 10 minutes"
+msgstr "Minden 10 percben"
+
+#: includes/admin-functions.php:284 templates/settings.php:296
+msgid "Every 5 minutes"
+msgstr "Minden 5 percben"
+
+#: includes/admin-functions.php:297
+msgid "5 minutes"
+msgstr "5 perc"
+
+#: includes/admin-functions.php:298
+msgid "10 minutes"
+msgstr "10 perc"
+
+#: includes/admin-functions.php:299 templates/settings.php:397
+msgid "15 minutes"
+msgstr "15 perc"
+
+#: includes/admin-functions.php:300
+msgid "20 minutes"
+msgstr "20 perc"
+
+#: includes/admin-functions.php:301 templates/settings.php:398
+msgid "30 minutes"
+msgstr "30 perc"
+
+#: includes/admin-functions.php:302 templates/settings.php:399
+msgid "45 minutes"
+msgstr "45 perc"
+
+#: includes/admin-functions.php:303 templates/settings.php:320
+#: templates/settings.php:400
+msgid "1 hour"
+msgstr "1 óra"
+
+#: includes/admin-functions.php:318 includes/functions.php:827
+#: includes/functions.php:852 includes/functions.php:1178
+#, php-format
+msgid "%d space available"
+msgid_plural "%d spaces available"
+msgstr[0] "%d szabad időpont"
+msgstr[1] "%d szabad időpont"
+
+#: includes/admin-functions.php:405 includes/functions.php:412
+msgid "Back to"
+msgstr "Vissza"
+
+#: includes/admin-functions.php:416 includes/admin-functions.php:423
+#: includes/functions.php:419 includes/functions.php:426
+msgid "Sun"
+msgstr "Vas"
+
+#: includes/admin-functions.php:417 includes/functions.php:420
+msgid "Mon"
+msgstr "Hé"
+
+#: includes/admin-functions.php:418 includes/functions.php:421
+msgid "Tue"
+msgstr "Ke"
+
+#: includes/admin-functions.php:419 includes/functions.php:422
+msgid "Wed"
+msgstr "Sze"
+
+#: includes/admin-functions.php:420 includes/functions.php:423
+msgid "Thu"
+msgstr "Csüt"
+
+#: includes/admin-functions.php:421 includes/functions.php:424
+msgid "Fri"
+msgstr "Pé"
+
+#: includes/admin-functions.php:422 includes/functions.php:425
+msgid "Sat"
+msgstr "Szo"
+
+#: includes/admin-functions.php:527 includes/admin-functions.php:825
+#: includes/admin-functions.php:1080
+#, php-format
+msgid "%d Appointment"
+msgid_plural "%d Appointments"
+msgstr[0] "%d Időpont"
+msgstr[1] "%d Időpont"
+
+#: includes/admin-functions.php:574 includes/shortcodes.php:130
+#: includes/shortcodes.php:179 includes/widgets.php:38
+#: templates/settings.php:1176 templates/settings.php:1277
+#: templates/settings.php:1398 templates/settings.php:1462
+msgid "Default Calendar"
+msgstr "Alapértelmezett naptár"
+
+#: includes/admin-functions.php:585 includes/admin-functions.php:604
+msgid "Appointments for"
+msgstr "Időpont"
+
+#: includes/admin-functions.php:596
+#, php-format
+msgid "%s Appointments for"
+msgstr "%s Időpont"
+
+#: includes/admin-functions.php:815
+msgid "space"
+msgid_plural "spaces"
+msgstr[0] "hely"
+msgstr[1] "hely"
+
+#: includes/admin-functions.php:815
+msgid "available"
+msgstr "szabad"
+
+#: includes/admin-functions.php:840 includes/admin-functions.php:898
+#: includes/admin-functions.php:952 includes/dashboard-widget.php:181
+#: templates/pending-list.php:192
+msgid "(this user no longer exists)"
+msgstr "(ez a felhasználó már nem létezik)"
+
+#: includes/admin-functions.php:854 includes/admin-functions.php:917
+#: includes/admin-functions.php:972 templates/pending-list.php:213
+msgid "Approve"
+msgstr "Jóváhagy"
+
+#: includes/admin-functions.php:870 includes/ajax/admin/appointment-form.php:26
+#: post-types/booked_appointments.php:36
+msgid "New Appointment"
+msgstr "Új időpont"
+
+#: includes/admin-functions.php:871
+msgid "Enable"
+msgstr "Egedélyez"
+
+#: includes/admin-functions.php:871
+msgid "Disable"
+msgstr "Elutasít"
+
+#: includes/admin-functions.php:884
+msgid ""
+"There are additional appointments booked from previously available time "
+"slots:"
+msgstr ""
+"További időpontok vannak foglalva a korábban rendelkezésre álló időpontokból:"
+
+#: includes/admin-functions.php:938
+msgid ""
+"There are no appointment slots available for this day, however there are "
+"appointments booked from previously available time slots:"
+msgstr ""
+"There are no appointment slots available for this day, however there are "
+"appointments booked from previously available time slots:"
+
+#: includes/admin-functions.php:990 includes/functions.php:864
+#: includes/functions.php:873 includes/functions.php:1206
+#: includes/functions.php:1215
+msgid "There are no appointment time slots available for this day."
+msgstr "A mai napra nincs elérhető időpont."
+
+#: includes/admin-functions.php:990
+msgid "Would you like to add some?"
+msgstr "Szeretne hozzá néhányat?"
+
+#: includes/admin-functions.php:1110 templates/settings.php:1535
+msgid "Enter a label for this checkbox..."
+msgstr "Adjon egy címkét ennek a csekkboxnak"
+
+#: includes/admin-functions.php:1117 templates/settings.php:1540
+msgid "Enter a label for this radio button..."
+msgstr "Adjon egy címkét ennek a rádiógombnak..."
+
+#: includes/admin-functions.php:1124 templates/settings.php:1544
+msgid "Enter a label for this option..."
+msgstr "Adjon egy címkét ennek az opciónak..."
+
+#: includes/admin-functions.php:1137 includes/admin-functions.php:1276
+#: templates/settings.php:1507
+msgid "Checkbox"
+msgstr "Csekkbox"
+
+#: includes/admin-functions.php:1144 includes/admin-functions.php:1283
+#: templates/settings.php:1515
+msgid "Radio Button"
+msgstr "Rádiógomb"
+
+#: includes/admin-functions.php:1151 includes/admin-functions.php:1290
+#: templates/settings.php:1523
+msgid "Option"
+msgstr "Opció"
+
+#: includes/admin-functions.php:1184 includes/admin-functions.php:1302
+#: templates/settings.php:1491
+msgid "Single Line Text"
+msgstr "Egysoros szöveg"
+
+#: includes/admin-functions.php:1185 includes/admin-functions.php:1196
+#: includes/admin-functions.php:1207 includes/admin-functions.php:1219
+#: includes/admin-functions.php:1231 templates/settings.php:1492
+#: templates/settings.php:1498 templates/settings.php:1504
+#: templates/settings.php:1512 templates/settings.php:1520
+msgid "Required Field"
+msgstr "Kötelező mező"
+
+#: includes/admin-functions.php:1186 includes/admin-functions.php:1197
+#: templates/settings.php:1493 templates/settings.php:1499
+msgid "Enter a label for this field..."
+msgstr "Adjon egy címkét ennek a mezőnek..."
+
+#: includes/admin-functions.php:1195 includes/admin-functions.php:1303
+#: templates/settings.php:1497
+msgid "Paragraph Text"
+msgstr "Bekezdés szövege"
+
+#: includes/admin-functions.php:1206 includes/admin-functions.php:1304
+#: templates/settings.php:1503
+msgid "Checkboxes"
+msgstr "Csekkboxok"
+
+#: includes/admin-functions.php:1208 templates/settings.php:1505
+msgid "Enter a label for this checkbox group..."
+msgstr "Adjon egy címkét ezeknek a csekkboxoknak.."
+
+#: includes/admin-functions.php:1218 includes/admin-functions.php:1305
+#: templates/settings.php:1511
+msgid "Radio Buttons"
+msgstr "Rádiógombok"
+
+#: includes/admin-functions.php:1220 templates/settings.php:1513
+msgid "Enter a label for this radio button group..."
+msgstr "Adjon egy címkét ezeknek a rádiógomboknak..."
+
+#: includes/admin-functions.php:1230 includes/admin-functions.php:1306
+#: templates/settings.php:1519
+msgid "Drop Down"
+msgstr "Legördülő"
+
+#: includes/admin-functions.php:1232 templates/settings.php:1521
+msgid "Enter a label for this drop-down group..."
+msgstr "Adjon egy címkét ezeknek a legördülő csoportnak..."
+
+#: includes/admin-functions.php:1242 includes/admin-functions.php:1307
+#: templates/settings.php:1527
+msgid "Text Content"
+msgstr "Szöveges tartalom"
+
+#: includes/admin-functions.php:1244
+msgid "HTML is allowed in this field."
+msgstr "A HTML ezen a területen megengedett."
+
+#: includes/ajax/admin/add-appointment.php:139
+#: includes/ajax/admin/edit-appointment.php:18
+msgid "That email does not appear to be valid."
+msgstr "Ez az e-mail nem tűnik valódinak."
+
+#: includes/ajax/admin/appointment-form.php:40
+msgid "Current Customer"
+msgstr "Meglévő ügyfél"
+
+#: includes/ajax/admin/appointment-form.php:43
+msgid "New Customer"
+msgstr "Új ügyfél"
+
+#: includes/ajax/admin/appointment-form.php:48
+msgid "Guest"
+msgstr "Vendég"
+
+#: includes/ajax/admin/appointment-form.php:56
+msgid "Select a customer"
+msgstr "Válasszon egy ügyfelet"
+
+#: includes/ajax/admin/appointment-form.php:71
+#: includes/ajax/admin/appointment-form.php:92
+#: includes/ajax/admin/user-info.php:87
+#: includes/ajax/front/appointment-form/form-fields-guest.php:18
+#: includes/ajax/front/appointment-form/form-fields-registration.php:13
+#: includes/general-functions.php:347
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: includes/ajax/admin/appointment-form.php:72
+#: includes/ajax/admin/appointment-form.php:93
+#: includes/ajax/admin/user-info.php:88
+#: includes/ajax/front/appointment-form/form-fields-guest.php:19
+#: includes/ajax/front/appointment-form/form-fields-registration.php:14
+#: includes/general-functions.php:352
+msgid "Last Name"
+msgstr "Vezetéknév"
+
+#: includes/ajax/admin/appointment-form.php:76
+#: includes/ajax/admin/appointment-form.php:97
+#: includes/ajax/admin/user-info.php:92
+#: includes/ajax/front/appointment-form/form-fields-guest.php:24
+#: includes/ajax/front/appointment-form/form-fields-guest.php:27
+#: includes/ajax/front/appointment-form/form-fields-registration.php:18
+msgid "Name"
+msgstr "Név"
+
+#: includes/ajax/admin/appointment-form.php:81
+#: includes/ajax/admin/appointment-form.php:102
+#: includes/ajax/admin/user-info.php:98
+#: includes/ajax/front/appointment-form/form-fields-forgot.php:6
+#: includes/ajax/front/appointment-form/form-fields-guest.php:25
+#: includes/ajax/front/appointment-form/form-fields-guest.php:34
+#: includes/ajax/front/appointment-form/form-fields-login.php:6
+#: includes/ajax/front/appointment-form/form-fields-registration.php:23
+#: includes/general-functions.php:357 includes/shortcodes.php:418
+msgid "Email Address"
+msgstr "E-mail cím"
+
+#: includes/ajax/admin/appointment-form.php:82
+#: includes/ajax/front/appointment-form/form-fields-registration.php:24
+msgid "Choose a password"
+msgstr "Válasszon egy jelszót"
+
+#: includes/ajax/admin/appointment-form.php:120
+#: includes/ajax/front/appointment-form/form.php:81
+#: includes/ajax/front/appointment-form/form.php:191
+#: templates/settings.php:1212
+msgid "Cancel"
+msgstr "Mégse"
+
+#: includes/ajax/admin/user-info.php:5 post-types/booked_appointments.php:37
+msgid "Edit Appointment"
+msgstr "Időpont szerkesztése"
+
+#: includes/ajax/admin/user-info.php:25
+msgid "Appointment Date/Time"
+msgstr "Időpont Dátum/Idő"
+
+#: includes/ajax/admin/user-info.php:64
+msgid "Customer Information"
+msgstr "Ügyfél információ"
+
+#: includes/ajax/admin/user-info.php:110
+msgid "Appointment Information"
+msgstr "Időpont információ"
+
+#: includes/ajax/front/appointment-form.php:41
+#: includes/ajax/front/book-appointment.php:496
+msgid ""
+"Sorry, someone just booked this appointment before you could. Please choose "
+"a different booking time."
+msgstr ""
+"Sajnos valaki pont lefoglalta ezt az időpontot. Kérjük, válasszon másik "
+"foglalási időt!"
+
+#: includes/ajax/front/appointment-form.php:64
+msgid "Request an Appointment"
+msgstr "Időpont kérése"
+
+#: includes/ajax/front/appointment-form.php:64
+msgid "Book an Appointment"
+msgstr "Foglalás"
+
+#: includes/ajax/front/appointment-form/appointment.php:49
+#, php-format
+msgid "%s on %s"
+msgstr "%s on %s"
+
+#: includes/ajax/front/appointment-form/appointment.php:51
+#, php-format
+msgid "%s at %s"
+msgstr "%s at %s"
+
+#: includes/ajax/front/appointment-form/bookings.php:25
+msgid "Sorry, there are no bookings available"
+msgstr "Sajnáljuk, de jelenleg nincsenek szabad időpontok"
+
+#: includes/ajax/front/appointment-form/bookings.php:64
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: includes/ajax/front/appointment-form/form-fields-forgot.php:2
+msgid "Enter your email address to reset your password:"
+msgstr "Adja meg az e-mail címét az új jelszó igényléséhez:"
+
+#: includes/ajax/front/appointment-form/form-fields-guest.php:10
+msgid "Your Information:"
+msgstr "Az Ön információi:"
+
+#: includes/ajax/front/appointment-form/form-fields-guest.php:12
+msgid "Please enter your first name, last name and email address:"
+msgstr "Kérjük, adja meg vezeték- és keresztnevét, illetve e-mail címét:"
+
+#: includes/ajax/front/appointment-form/form-fields-guest.php:12
+msgid "Please enter your name and email address:"
+msgstr "Kérjük, adja meg a nevét és e-mail címét:"
+
+#: includes/ajax/front/appointment-form/form-fields-guest.php:12
+msgid "Please enter your first and last name:"
+msgstr "Kérjük, adja meg vezeték- és keresztnevét:"
+
+#: includes/ajax/front/appointment-form/form-fields-guest.php:12
+msgid "Please enter your name:"
+msgstr "Kérjük, adja meg a nevét:"
+
+#: includes/ajax/front/appointment-form/form-fields-login.php:2
+msgid "Welcome back, please sign in:"
+msgstr "Üdvözöljük, kérem, jelentkezzen be:"
+
+#: includes/ajax/front/appointment-form/form-fields-login.php:9
+msgid "Password"
+msgstr "Jelszó"
+
+#: includes/ajax/front/appointment-form/form-fields-registration.php:2
+msgid "Registration:"
+msgstr "Regisztráció:"
+
+#: includes/ajax/front/appointment-form/form-fields-registration.php:3
+msgid ""
+"Please enter your name, your email address and choose a password to get "
+"started."
+msgstr ""
+"Kérjük, adja meg nevét, e-mail címét, és válasszon jelszót az induláshoz."
+
+#: includes/ajax/front/appointment-form/form.php:41
+msgid "New customer"
+msgstr "Új felhasználó"
+
+#: includes/ajax/front/appointment-form/form.php:49
+msgid "Current customer"
+msgstr "Meglévő felhasználó"
+
+#: includes/ajax/front/appointment-form/form.php:74
+msgid "I forgot my password."
+msgstr "Elfelejtettem a jelszavamat."
+
+#: includes/ajax/front/appointment-form/form.php:80
+msgid "Sign in"
+msgstr "Bejelentkezés"
+
+#: includes/ajax/front/appointment-form/form.php:101
+msgid "Reset Password"
+msgstr "Jelszavam visszaállítása"
+
+#: includes/ajax/front/appointment-form/form.php:102
+msgid "Go Back"
+msgstr "Vissza"
+
+#: includes/ajax/front/appointment-form/form.php:126
+#, php-format
+msgid ""
+"Sorry, but you've hit the appointment limit. Each user may only book %d "
+"appointment at a time."
+msgid_plural ""
+"Sorry, but you've hit the appointment limit. Each user may only book %d "
+"appointments at a time."
+msgstr[0] ""
+"Sajnáljuk, de több helyet szeretne foglalni, mint amennyit lehet. Minden "
+"felhasználó csak %d időpontot foglalhat egyszerre."
+msgstr[1] ""
+"Sajnáljuk, de több helyet szeretne foglalni, mint amennyit lehet. Minden "
+"felhasználó csak %d időpontot foglalhat egyszerre."
+
+#: includes/ajax/front/appointment-form/form.php:131
+#, php-format
+msgid ""
+"Sorry, but you're about to book more appointments than you are allowed to "
+"book at a time. Each user may only book %d appointments at a time."
+msgstr ""
+"Sajnáljuk, de több helyet szeretne foglalni, mint amennyit lehet. Minden "
+"felhasználó csak %d időpontot foglalhat egyszerre."
+
+#: includes/ajax/front/appointment-form/form.php:141
+#, php-format
+msgid "You are about to request an appointment for %s."
+msgid_plural "You are about to request appointments for %s."
+msgstr[0] "Kedves %s!"
+msgstr[1] "Kedves %s!"
+
+#: includes/ajax/front/appointment-form/form.php:141
+msgid ""
+"Please review and confirm that you would like to request the following "
+"appointment:"
+msgid_plural ""
+"Please review and confirm that you would like to request the following "
+"appointments:"
+msgstr[0] "Kérjük, erősítse meg, hogy a következő időpontot szeretné:"
+msgstr[1] "Kérjük, erősítse meg, hogy a következő időpontokat szeretné:"
+
+#: includes/ajax/front/appointment-form/form.php:147
+msgid ""
+"Please confirm that you would like to request the following appointment:"
+msgid_plural ""
+"Please confirm that you would like to request the following appointments:"
+msgstr[0] "Kérjük, erősítse meg, hogy a következő időpontot szeretné:"
+msgstr[1] "Kérjük, erősítse meg, hogy a következő időpontokat szeretné:"
+
+#: includes/ajax/front/appointment-form/form.php:170
+#: includes/general-functions.php:368
+msgid "Please enter the following text:"
+msgstr "Kérjük, adja meg a következő szöveget:"
+
+#: includes/ajax/front/appointment-form/form.php:188
+msgid "Okay"
+msgstr "Rendben"
+
+#: includes/ajax/front/appointment-form/form.php:190
+msgid "Request Appointment"
+msgid_plural "Request Appointments"
+msgstr[0] "Lefoglalom"
+msgstr[1] "Lefoglalom"
+
+#: includes/ajax/front/appointment-form/form.php:190
+msgid "Book Appointment"
+msgid_plural "Book Appointments"
+msgstr[0] "Lefoglalom"
+msgstr[1] "Lefoglalom"
+
+#: includes/ajax/front/book-appointment.php:115
+#: includes/ajax/front/book-appointment.php:276
+#: includes/ajax/front/book-appointment.php:419
+msgid "Your full name is required to book an appointment."
+msgstr "Az időpont lefoglalásához szükség van a teljes nevére."
+
+#: includes/ajax/front/book-appointment.php:181
+msgid "The email address you have entered doesn't appear to be valid."
+msgstr "A megadott e-mail cím nem tűnik valódinak."
+
+#: includes/ajax/front/book-appointment.php:183
+msgid ""
+"Your name and a valid email address are required to book an appointment."
+msgstr "Az időpont lefoglaláshoz szükséges a neve és egy érvényes e-mail cím."
+
+#: includes/ajax/front/book-appointment.php:185
+msgid "Your name is required to book an appointment."
+msgstr "Az időpont lefoglaláshoz szükséges a neve és egy érvényes e-mail cím."
+
+#: includes/ajax/front/book-appointment.php:187
+msgid "An unknown error occured."
+msgstr "Egy ismeretlen hiba merült fel."
+
+#: includes/ajax/front/book-appointment.php:482
+msgid "Registration has been successful."
+msgstr "Sikeres regisztráció."
+
+#: includes/ajax/init_admin.php:120
+msgid "Your user level does not have the ability to edit appointments."
+msgstr "Felhasználói hozzáféréssel nem szerkesztheti az időpontokat."
+
+#: includes/ajax/init_admin.php:862 templates/settings.php:1333
+msgid "Time Slot"
+msgstr "Időblokk"
+
+#: includes/dashboard-widget.php:15 templates/profile.php:51
+msgid "Upcoming Appointments"
+msgstr "Közelgő időpontok"
+
+#: includes/dashboard-widget.php:188 templates/pending-list.php:219
+msgid "This appointment has passed."
+msgstr "Ez az időpont már elmúlt."
+
+#: includes/dashboard-widget.php:200
+msgid "There are no upcoming appointments."
+msgstr "Nincs közelgő időpont."
+
+#: includes/functions.php:604
+#, php-format
+msgid "%d Available"
+msgid_plural "%d Available"
+msgstr[0] "%d elérhető"
+msgstr[1] "%d elérhető"
+
+#: includes/functions.php:604
+msgid "None Available"
+msgstr "Nem elérhető"
+
+#: includes/functions.php:815 includes/functions.php:1167
+msgid "Unavailable"
+msgstr "Nem elérhető"
+
+#: includes/functions.php:868 includes/functions.php:1235
+msgid "Book Appointment"
+msgstr "Foglalás"
+
+#: includes/functions.php:829 includes/functions.php:1180
+msgid "Appointments in this time slot:"
+msgid_plural "Appointments in this time slot:"
+msgstr[0] "Időpont ebben az időtartományban:"
+msgstr[1] "Időpontok ebben az időtartományban:"
+
+#: includes/functions.php:878
+#, php-format
+msgid "Available Appointment on %s"
+msgid_plural "Available Appointments on %s"
+msgstr[0] "Szabad időpontok erre a napra: %s"
+msgstr[1] "Szabad időpontok erre a napra: %s"
+
+#: includes/functions.php:1046
+msgid "Previous"
+msgstr "Előző"
+
+#: includes/functions.php:1049
+msgid "Next"
+msgstr "Következő"
+
+#: includes/functions.php:1220
+#, php-format
+msgid "Available Appointments on %s"
+msgid_plural "Available Appointments on %s"
+msgstr[0] "Szabad időpontok erre a napra: %s"
+msgstr[1] "Szabad időpontok erre a napra: %s"
+
+#: includes/functions.php:1275
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Ön arról értesített minket, hogy új jelszót szeretne igényelni a következő "
+"fiókhoz:"
+
+#: includes/functions.php:1277
+#, php-format
+msgid "Username: %s"
+msgstr "Felhasználónév: %s"
+
+#: includes/functions.php:1278
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Ha a jelszócserét nem Ön kezdeményezte, akkor hagyja levelünket figyelmen "
+"kívül, és semmi sem fog történni."
+
+#: includes/functions.php:1279
+msgid "To reset your password, visit the following address:"
+msgstr "A jelszó visszaállításához keresse fel a következő címet:"
+
+#: includes/functions.php:1288
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Jelszó visszaállítása"
+
+#: includes/functions.php:1517
+msgid "Choose..."
+msgstr "[%s] Jelszó visszaállítása"
+
+#: includes/functions.php:1684
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr "A megadott jelszavak nem egyeznek. A jelszó nem frissült."
+
+#: includes/functions.php:1695
+msgid "The Email you entered is not valid.  please try again."
+msgstr "A megadott e-mail érvénytelen. Kérem, próbálja újra."
+
+#: includes/functions.php:1697
+msgid "This email is already used by another user.  try a different one."
+msgstr ""
+"Ezt az e-mailt már egy másik felhasználó használja. Próbálkozzon egy "
+"másikkal."
+
+#: includes/functions.php:1719
+msgid "Error uploading avatar."
+msgstr "Hiba az avatar feltöltésében."
+
+#: includes/functions.php:1726
+msgid "Avatar uploader security check failed."
+msgstr "Az avatarfeltöltő biztonsági ellenőrzése sikertelen."
+
+#: includes/functions.php:1759
+msgid ""
+"Your appointment has been requested! We have also set up an account for you. "
+"Your login information has been sent via email. When logged in, you can view "
+"your upcoming appointments below. Be sure to change your password to "
+"something more memorable by using the Edit Profile tab above."
+msgstr ""
+"Az időpontfoglalási kérelmét elküldtük. Amint jóváhagyásra kerül, e-mailen "
+"értesítjük! Bejelentkezési adatait kiküldtük a megadott e-mail címére."
+
+#: includes/functions.php:1768
+msgid ""
+"Your appointment has been requested! It will be updated below if approved."
+msgstr ""
+"Az időpontfoglalási kérelmét elküldtük. Amint jóváhagyásra kerül, e-mailen "
+"értesítjük!"
+
+#: includes/functions.php:1770
+msgid "Your appointment has been added to our calendar!"
+msgstr "Az időpontja hozzá lett adva a naptárhoz!"
+
+#: includes/functions.php:1790 templates/profile.php:61
+msgid "Edit Profile"
+msgstr "Profil szerkesztése"
+
+#: includes/functions.php:1796
+msgid "Update Avatar"
+msgstr "Avatar frissítése"
+
+#: includes/functions.php:1796 includes/functions.php:1805
+#: includes/functions.php:1809 includes/functions.php:1815
+#: includes/functions.php:1819
+msgid "(disabled in demo)"
+msgstr "(tiltva a demóban)"
+
+#: includes/functions.php:1797
+msgid "Choose image ..."
+msgstr "Válasszon egy képet..."
+
+#: includes/functions.php:1799
+msgid "Recommended size: 100px by 100px or larger"
+msgstr "Ajánlott méret: 100px 100px vagy nagyobb"
+
+#: includes/functions.php:1805
+msgid "Display Name"
+msgstr "Megjelenítendő név"
+
+#: includes/functions.php:1809
+msgid "E-mail *"
+msgstr "E-mail *"
+
+#: includes/functions.php:1815
+msgid "Change Password"
+msgstr "Jelszó módosítása"
+
+#: includes/functions.php:1819
+msgid "Repeat Password"
+msgstr "Jelszó újra"
+
+#: includes/general-functions.php:35
+msgid "Add to Calendar"
+msgstr "Hozzáadás a naptárhoz"
+
+#: includes/general-functions.php:40
+#, php-format
+msgid "Appointment with %s"
+msgstr "Időpont Dr. Tornai Péternél"
+
+#: includes/general-functions.php:232
+msgid "The text you've entered does not match the image."
+msgstr "A beírt szöveg nem egyezik a képpel."
+
+#: includes/general-functions.php:240
+msgid "All fields are required to register."
+msgstr "A regisztrációhoz minden mező kitöltése kötelező."
+
+#: includes/general-functions.php:244
+msgid "That username already exists."
+msgstr "Ez a felhasználónév már létezik."
+
+#: includes/general-functions.php:248
+msgid "That name is not valid."
+msgstr "Hmm.. ez a név nem tűnik valódinak."
+
+#: includes/general-functions.php:252
+msgid "That email address is not valid."
+msgstr "Ez az e-mail cím nem tűnik valódinak."
+
+#: includes/general-functions.php:256
+msgid "That email is already in use."
+msgstr "Ez az e-mail már használatban van."
+
+#: includes/general-functions.php:307 includes/shortcodes.php:401
+msgid "Success!"
+msgstr "Siker!"
+
+#: includes/general-functions.php:307
+msgid "Registration complete, please check your email for login information."
+msgstr ""
+"A regisztráció befejeződött, kérjük, ellenőrizze az e-mail fiókját a "
+"bejelentkezési adatokhoz."
+
+#: includes/general-functions.php:347
+msgid "Your Name"
+msgstr "Az Ön neve"
+
+#: includes/general-functions.php:361
+msgid "Choose a Password"
+msgstr "Válasszon egy jelszót"
+
+#: includes/general-functions.php:387 includes/shortcodes.php:392
+msgid "Register"
+msgstr "Regisztráció"
+
+#: includes/mailer_functions.php:20
+msgid "Display the full name of the customer."
+msgstr "Mutassa az ügyfél teljes nevét."
+
+#: includes/mailer_functions.php:21 includes/mailer_functions.php:36
+msgid "Display the customer's email address."
+msgstr "Mutassa az ügyfél e-mail címét."
+
+#: includes/mailer_functions.php:22
+msgid "Display the title of the appointment's time slot."
+msgstr "Mutassa az időblokk címét."
+
+#: includes/mailer_functions.php:23
+msgid "Display the appointment's calendar name (if applicable)."
+msgstr "Mutassa naptár nevét (ha lehet)."
+
+#: includes/mailer_functions.php:24
+msgid "Display the appointment date."
+msgstr "Jelenítse meg a találkozó dátumát."
+
+#: includes/mailer_functions.php:25
+msgid "Display the appointment time."
+msgstr "Jelenítse meg a találkozó időpontját."
+
+#: includes/mailer_functions.php:26
+msgid "Display the appointment's custom field data."
+msgstr "Jelenítse meg a találkozó egyéni mezőadatait."
+
+#: includes/mailer_functions.php:27
+msgid "Display the appointment's unique identification number."
+msgstr "Jelenítse meg a találkozó egyedi azonosítószámát."
+
+#: includes/mailer_functions.php:33
+msgid "Display the customer's name."
+msgstr "Mutassa az ügyfél nevét."
+
+#: includes/mailer_functions.php:34
+msgid "Display the customer's username."
+msgstr "Mutassa az ügyfél felhasználónevét."
+
+#: includes/mailer_functions.php:35
+msgid "Display the customer's password."
+msgstr "Mutassa az ügyfél jelszavát."
+
+#: includes/shortcodes.php:37
+msgid "A first and last name are required to register."
+msgstr "A regisztrációhoz szükséges a vezeték- és keresztnév megadása."
+
+#: includes/shortcodes.php:42
+msgid "A name is required to register."
+msgstr "A regisztrációhoz szükséges a név megadása."
+
+#: includes/shortcodes.php:247
+msgid "Past Appointment"
+msgid_plural "Past Appointments"
+msgstr[0] "Múltbéli időpont"
+msgstr[1] "Múltbéli időpontok"
+
+#: includes/shortcodes.php:249
+msgid "No past appointments."
+msgstr "Nincs múltbéli időpont"
+
+#: includes/shortcodes.php:255
+msgid "No upcoming appointments."
+msgstr "Nincs közelgő időpont"
+
+#: includes/shortcodes.php:264
+msgid "Today"
+msgstr "Ma"
+
+#: includes/shortcodes.php:302
+msgid "pending"
+msgstr "függő"
+
+#: includes/shortcodes.php:302
+msgid "approved"
+msgstr "jóváhagyott"
+
+#: includes/shortcodes.php:314
+msgid "from"
+msgstr "from"
+
+#: includes/shortcodes.php:314
+msgid "at"
+msgstr "at"
+
+#: includes/shortcodes.php:325 templates/settings.php:1664
+msgid "Calendar"
+msgstr "Naptár"
+
+#: includes/shortcodes.php:331
+msgid "Additional information"
+msgstr "További információ"
+
+#: includes/shortcodes.php:344
+msgid "Cancel Appointment"
+msgstr "Időpont lemondása"
+
+#: includes/shortcodes.php:369
+msgid "Please log in to view your upcoming appointments."
+msgstr "Kérem, jelentkezzen be, ahhoz hogy megtekinthesse az időpontjait."
+
+#: includes/shortcodes.php:391
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: includes/shortcodes.php:393
+msgid "Forgot Password"
+msgstr "Elfelejtett jelszó"
+
+#: includes/shortcodes.php:402
+msgid "Check your email to reset your password."
+msgstr "Ellenőrizze az e-mail fiókját a jelszó visszaállításához."
+
+#: includes/shortcodes.php:410
+msgid "Both fields are required to log in."
+msgstr "A belépéshez mindkét mező kitöltése kötelező."
+
+#: includes/shortcodes.php:411
+msgid "Sorry, those login credentials are incorrect."
+msgstr "Sajnáljuk, ezek a bejelentkezési adatok nem megfelelőek."
+
+#: includes/shortcodes.php:449
+msgid "An email address is required to reset your password."
+msgstr "E-mail cím szükséges a jelszó visszaállításához."
+
+#: includes/shortcodes.php:452
+msgid "What is your email address?"
+msgstr "Mi az e-mail címe?"
+
+#: includes/shortcodes.php:457
+msgid "Reset my password"
+msgstr "Jelszavam visszaállítása"
+
+#: includes/widgets.php:16
+msgid "Booked Calendar"
+msgstr "Foglalási naptár"
+
+#: includes/widgets.php:43
+msgid "Widget Title"
+msgstr "Widget cím"
+
+#: includes/widgets.php:48
+msgid "Calendar to Display"
+msgstr "Calendar to Display"
+
+#: includes/widgets.php:55
+msgid "Month"
+msgstr "Hónap"
+
+#: includes/widgets.php:58
+msgid "Current month"
+msgstr "Aktuális hónap"
+
+#: includes/widgets.php:67
+msgid "Year"
+msgstr "Év"
+
+#: includes/widgets.php:69
+msgid "Current year"
+msgstr "Aktuális év"
+
+#: post-types/booked_appointments.php:31 post-types/booked_appointments.php:33
+msgid "Appointment"
+msgstr "Időpont"
+
+#: post-types/booked_appointments.php:34
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: post-types/booked_appointments.php:35
+msgid "Add New Appointment"
+msgstr "Új időpont hozzáadása"
+
+#: post-types/booked_appointments.php:38
+msgid "View Appointment"
+msgstr "Időpont megtekintése"
+
+#: post-types/booked_appointments.php:39
+msgid "All Appointments"
+msgstr "Összes időpont"
+
+#: post-types/booked_appointments.php:40
+msgid "Search Appointments"
+msgstr "Időpontok keresése"
+
+#: post-types/booked_appointments.php:41
+msgid "Parent Appointments:"
+msgstr "Szülő időpontok:"
+
+#: post-types/booked_appointments.php:42
+msgid "No Appointments found."
+msgstr "Nem található időpont."
+
+#: post-types/booked_appointments.php:43
+msgid "No Appointments found in Trash."
+msgstr "Nem található időpont a szemetesben."
+
+#: post-types/booked_appointments.php:60 post-types/booked_appointments.php:75
+#: templates/welcome.php:22
+msgid "Custom Calendars"
+msgstr "Egyéni naptárak"
+
+#: post-types/booked_appointments.php:61
+msgid "Custom Calendar"
+msgstr "Egyéni naptár"
+
+#: post-types/booked_appointments.php:62
+msgid "Search Custom Calendars"
+msgstr "Egyéni naptárak keresése"
+
+#: post-types/booked_appointments.php:63
+msgid "Popular Custom Calendars"
+msgstr "Népszerű egyéni naptárak"
+
+#: post-types/booked_appointments.php:64
+msgid "All Custom Calendars"
+msgstr "Összes egyéni naptár"
+
+#: post-types/booked_appointments.php:67
+msgid "Edit Custom Calendar"
+msgstr "Egyéni naptár szerkesztése"
+
+#: post-types/booked_appointments.php:68
+msgid "Update Custom Calendar"
+msgstr "Egyéni naptár frissítése"
+
+#: post-types/booked_appointments.php:69
+msgid "Add New Custom Calendar"
+msgstr "Egyéni naptár hozzáadása"
+
+#: post-types/booked_appointments.php:70
+msgid "New Custom Calendar Name"
+msgstr "Új egyéni naptár név"
+
+#: post-types/booked_appointments.php:71
+msgid "Separate custom calendars with commas"
+msgstr "Egyedi naptárak elkülönítése vesszővel"
+
+#: post-types/booked_appointments.php:72
+msgid "Add or remove custom calendars"
+msgstr "Egyéni naptárak hozzáadás vagy törlése"
+
+#: post-types/booked_appointments.php:73
+msgid "Choose from the most used custom calendars"
+msgstr "Válasszon a leggyakrabban használt egyéni naptárak közül"
+
+#: post-types/booked_appointments.php:74
+msgid "No custom calendars found."
+msgstr "Nem található egyéni naptár"
+
+#: templates/admin-calendar.php:34 templates/settings.php:1666
+msgid "All Calendars"
+msgstr "Minden naptár"
+
+#: templates/admin-calendar.php:63 templates/pending-list.php:31
+#: templates/settings.php:37
+msgid "There are no calendars assigned to you."
+msgstr "Nincsenek Önhöz rendelt naptárak."
+
+#: templates/admin-calendar.php:64 templates/pending-list.php:32
+#: templates/settings.php:38
+msgid ""
+"Get in touch with the Administration of this site to get a calendar assigned "
+"to you."
+msgstr ""
+"A naptár létrehozásához, lépjen kapcsolatba az oldal adminisztrátorával."
+
+#: templates/pending-list.php:37 templates/settings.php:45
+msgid "Updating, please wait..."
+msgstr "Frissítés, kérjük várjon..."
+
+#: templates/pending-list.php:38
+msgid "Pending Appointments"
+msgstr "Függőben lévő időpontok"
+
+#: templates/pending-list.php:41
+msgid "Delete Passed Appointments"
+msgstr "Elmúlt időpontok törlése"
+
+#: templates/pending-list.php:42
+msgid "Approve All"
+msgstr "Összes jóváhagyása"
+
+#: templates/pending-list.php:43
+msgid "Delete All"
+msgstr "Összes törlése"
+
+#: templates/pending-list.php:214
+msgid "Delete"
+msgstr "Törlés"
+
+#: templates/pending-list.php:220
+#, php-format
+msgid "Assigned to %s"
+msgstr "Hozzárendelve a következőhöz: %s"
+
+#: templates/pending-list.php:234
+msgid "There are no pending appointments."
+msgstr "Nincs függő időpont."
+
+#: templates/profile.php:16
+msgid "No profile here!"
+msgstr "Itt nincs profil!"
+
+#: templates/profile.php:17
+msgid "Sorry, this user profile does not exist."
+msgstr "Sajnáljuk, ez a felhasználói profil nem létezik."
+
+#: templates/profile.php:36
+#, php-format
+msgid "Welcome back, %s!"
+msgstr "Üdvözlöm kedves %s!"
+
+#: templates/profile.php:38
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: templates/profile.php:56
+msgid "Appointment History"
+msgstr "Időpont történet"
+
+#: templates/settings.php:47
+msgid "Appointment Settings"
+msgstr "Időpont beállítások"
+
+#: templates/settings.php:47
+#, php-format
+msgid "What's new in %s?"
+msgstr "%s - Újdonságok"
+
+#: templates/settings.php:57
+msgid "General"
+msgstr "Általános"
+
+#: templates/settings.php:61
+msgid "Time Slots"
+msgstr "Időblokkok"
+
+#: templates/settings.php:65 templates/welcome.php:24
+msgid "Custom Time Slots"
+msgstr "Egyéni időblokk"
+
+#: templates/settings.php:69 templates/welcome.php:25
+msgid "Custom Fields"
+msgstr "Egyéni mezők"
+
+#: templates/settings.php:73
+msgid "Emails"
+msgstr "Emailek"
+
+#: templates/settings.php:77
+msgid "Export"
+msgstr "Exportálás"
+
+#: templates/settings.php:81 templates/welcome.php:26
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: templates/settings.php:116
+msgid "Booking Type"
+msgstr "Foglalási típus"
+
+#: templates/settings.php:118
+msgid ""
+"You have the option to choose between \"Registered\" and \"Guest\" booking. "
+"Registered booking will require all appointments to be booked by a "
+"registered user (default). Guest booking will allow anyone with a name and "
+"email address to book an appointment."
+msgstr ""
+"Választhat a \"Regisztrált\" és a \"Vendég\" foglalás közül. A \"Regisztrált"
+"\" foglalás esetén csak regisztrált felhasználók foglalhatnak "
+"(alapértelmezett). A \"Vendég\" foglalásnál ezt bárki megteheti egy e-mail "
+"cím és egy név ellenében."
+
+#: templates/settings.php:124
+msgid "Registered Booking"
+msgstr "Regisztrált foglalás"
+
+#: templates/settings.php:125
+msgid "Guest Booking"
+msgstr "Vendég foglalás"
+
+#: templates/settings.php:135
+msgid "Booking Options"
+msgstr "Foglalási opciók"
+
+#: templates/settings.php:140
+msgid "Require \"Name\" only"
+msgstr "Csak \"Név\" szükséges"
+
+#: templates/settings.php:140
+msgid "Require your customers to enter their name in a single text field."
+msgstr "Arra kéri ügyfeleit hogy írják be nevüket egy szövegmezőbe."
+
+#: templates/settings.php:144
+msgid "Require \"First Name\" and \"Last Name\""
+msgstr "\"Vezetéknév\" és \"Keresztnév\" is szükséges"
+
+#: templates/settings.php:144
+msgid ""
+"Require your customers to enter their first and last name in two text fields."
+msgstr ""
+"Arra kéri ügyfeleit hogy írják be vezeték- és keresztnevüket két különálló "
+"mezőbe."
+
+#: templates/settings.php:155
+msgid "Guest Booking Options"
+msgstr "Vendég foglalási opció"
+
+#: templates/settings.php:160
+msgid "Require Email Address"
+msgstr "E-mail cím kérése"
+
+#: templates/settings.php:160
+msgid "Require your guests to enter their email address."
+msgstr "Arra kéri a vendégeket, hogy írják be e-mail címüket."
+
+#: templates/settings.php:169
+msgid "Appointment Booking Redirect"
+msgstr "Foglalás utáni átirányítás"
+
+#: templates/settings.php:183
+#, php-format
+msgid "%s Refresh the calendar list after booking."
+msgstr "%s A foglalás után frissítse a naptárlistát."
+
+#: templates/settings.php:183
+msgid "No Redirect"
+msgstr "Nincs átirányítás"
+
+#: templates/settings.php:188
+#, php-format
+msgid "%s Auto-detect the page with the [booked-profile] shortcode."
+msgstr "%s Az oldal automatikus felismerése a [booked-profile] shortcode-dal."
+
+#: templates/settings.php:188
+msgid "Auto-Detect Profile Page"
+msgstr "Profil oldal automatikus felismerése"
+
+#: templates/settings.php:188
+#, php-format
+msgid "Detected Page: %s"
+msgstr "Oldal észlelése: %s"
+
+#: templates/settings.php:194
+#, php-format
+msgid ""
+"%s We were not able to auto-detect. You need to %s with the %s shortcode."
+msgstr ""
+"%s Nem tudjuk magunktól automatikusan felismerni. Neked kell %s hozzá a %s "
+"shortcode-dal."
+
+#: templates/settings.php:194
+msgid "Important:"
+msgstr "Fontos:"
+
+#: templates/settings.php:194
+msgid "create a page"
+msgstr "oldalt készíteni"
+
+#: templates/settings.php:200
+#, php-format
+msgid "%s Choose a redirect page."
+msgstr "%s Válasszon átirányítási oldalt."
+
+#: templates/settings.php:200
+msgid "Choose Specific Page"
+msgstr "Válassza a Speciális oldalt"
+
+#: templates/settings.php:215
+msgid "Choose a page"
+msgstr "Válasszon egy oldalt"
+
+#: templates/settings.php:234
+msgid "Login Redirect"
+msgstr "Bejelentkezési áritányítás"
+
+#: templates/settings.php:236
+msgid ""
+"If you would like the login form to redirect somewhere else (instead of "
+"reloading the same page), you can choose a page here."
+msgstr ""
+"Ha azt szeretné, hogy a bejelentkezési form máshova irányítsa át a "
+"felhasználót (ahelyett, hogy az oldal újra töltődik), akkor azt itt válassza "
+"ki."
+
+#: templates/settings.php:250
+msgid "Redirect to the same page"
+msgstr "Átirányítás ugyanarra az oldalra"
+
+#: templates/settings.php:266
+msgid "Custom Login Tab Content"
+msgstr "Egyéni bejelentkezési lap"
+
+#: templates/settings.php:268
+msgid ""
+"If you would like the login form to include a custom message (above the "
+"login form), you can add that here."
+msgstr ""
+"Ha szeretné, hogy a bejelentkezési űrlap tartalmazzon egy egyéni üzenetet (a "
+"bejelentkezési űrlap felett), itt hozzáadhatja azt."
+
+#: templates/settings.php:283
+msgid "Time Slot Intervals"
+msgstr "Időblokk közötti szünet"
+
+#: templates/settings.php:285
+msgid ""
+"Choose the intervals you need for your appointment time slots. This will "
+"only affect the way default time slots are entered."
+msgstr ""
+"Válassza ki a találkozó idejére vonatkozó időközöket. Ez csak az "
+"alapértelmezett időrések bevitelére vonatkozik."
+
+#: templates/settings.php:311
+msgid "Appointment Buffer"
+msgstr "Időpont puffer"
+
+#: templates/settings.php:313
+msgid ""
+"To prevent appointments from getting booked too close to the current date "
+"and/or time, you can set an appointment buffer. Available appointments time "
+"slots will be pushed up to a new date and time depending on which buffer "
+"amount you choose below."
+msgstr ""
+"Annak érdekében, hogy megelőzze az, hogy időpontokat túl későn foglalják le "
+"a konkrét dátumhoz vagy időponthoz beállíthat egy időpont puffert. Az "
+"elérhető időpontokban az időrések új dátumra és időre lesznek tolva, attól "
+"függően, hogy mekkora puffer mennyiséget választ alább."
+
+#: templates/settings.php:319 templates/settings.php:396
+msgid "No buffer"
+msgstr "Nincs puffer"
+
+#: templates/settings.php:321 templates/settings.php:401
+msgid "2 hours"
+msgstr "2 óra"
+
+#: templates/settings.php:322 templates/settings.php:402
+msgid "3 hours"
+msgstr "3 óra"
+
+#: templates/settings.php:323 templates/settings.php:403
+msgid "4 hours"
+msgstr "4 óra"
+
+#: templates/settings.php:324 templates/settings.php:404
+msgid "5 hours"
+msgstr "5 óra"
+
+#: templates/settings.php:325 templates/settings.php:405
+msgid "6 hours"
+msgstr "6 óra"
+
+#: templates/settings.php:326 templates/settings.php:406
+msgid "12 hours"
+msgstr "12 óra"
+
+#: templates/settings.php:327 templates/settings.php:407
+msgid "24 hours"
+msgstr "24 óra"
+
+#: templates/settings.php:328 templates/settings.php:408
+msgid "2 days"
+msgstr "2 nap"
+
+#: templates/settings.php:329 templates/settings.php:409
+msgid "3 days"
+msgstr "3 nap"
+
+#: templates/settings.php:330 templates/settings.php:410
+msgid "5 days"
+msgstr "5 nap"
+
+#: templates/settings.php:331 templates/settings.php:411
+msgid "6 days"
+msgstr "6 nap"
+
+#: templates/settings.php:332 templates/settings.php:412
+msgid "1 week"
+msgstr "1 hét"
+
+#: templates/settings.php:333 templates/settings.php:413
+msgid "2 weeks"
+msgstr "2 hét"
+
+#: templates/settings.php:334 templates/settings.php:414
+msgid "3 weeks"
+msgstr "3 hét"
+
+#: templates/settings.php:335 templates/settings.php:415
+msgid "4 weeks"
+msgstr "4 hét"
+
+#: templates/settings.php:336 templates/settings.php:416
+msgid "5 weeks"
+msgstr "5 hét"
+
+#: templates/settings.php:337 templates/settings.php:417
+msgid "6 weeks"
+msgstr "6 hét"
+
+#: templates/settings.php:338 templates/settings.php:418
+msgid "7 weeks"
+msgstr "7 hét"
+
+#: templates/settings.php:339 templates/settings.php:419
+msgid "8 weeks"
+msgstr "8 hét"
+
+#: templates/settings.php:356
+msgid "Prevent Appointments Before Date"
+msgstr "Foglalás megakadályozása a választott időpont előtt"
+
+#: templates/settings.php:358
+msgid ""
+"To prevent appointments from getting booked before a certain date, you can "
+"choose that date below."
+msgstr ""
+"Ahhoz hogy meggátolja egy időpont foglalását egy bizonyos dátum előtt, "
+"választhat egy időpontot."
+
+#: templates/settings.php:364 templates/settings.php:380
+msgid "Choose a date"
+msgstr "Válasszon egy dátumot"
+
+#: templates/settings.php:372
+msgid "Prevent Appointments After Date"
+msgstr "Foglalás megakadályozása a választott időpont után"
+
+#: templates/settings.php:374
+msgid ""
+"To prevent appointments from getting booked after a certain date, you can "
+"choose that date below."
+msgstr ""
+"Ahhoz hogy meggátolja egy időpont foglalását egy bizonyos dátum után, "
+"választhat egy időpontot."
+
+#: templates/settings.php:388
+msgid "Cancellation Buffer"
+msgstr "Lemondási puffer"
+
+#: templates/settings.php:390
+msgid ""
+"To prevent appointments from getting cancelled too close to the appointment "
+"time, you can set a cancellation buffer."
+msgstr ""
+"Ahhoz, hogy meggátolja egy foglalás kései lemondását, választhat egy "
+"lemondási puffert."
+
+#: templates/settings.php:434
+msgid "Appointment Limit"
+msgstr "Foglalási limit"
+
+#: templates/settings.php:436
+msgid ""
+"To prevent users from booking too many appointments, you can set an "
+"appointment limit."
+msgstr ""
+"Ahhoz, hogy meggátolja, hogy a felhasználók túl sok időpontot foglaljanak "
+"le, beállíthat egy limitet."
+
+#: templates/settings.php:442
+msgid "No limit"
+msgstr "Nincs limit"
+
+#: templates/settings.php:443
+msgid "1 appointment"
+msgstr "1 időpont"
+
+#: templates/settings.php:444
+msgid "2 appointments"
+msgstr "2 időpont"
+
+#: templates/settings.php:445
+msgid "3 appointments"
+msgstr "3 időpont"
+
+#: templates/settings.php:446
+msgid "4 appointments"
+msgstr "4 időpont"
+
+#: templates/settings.php:447
+msgid "5 appointments"
+msgstr "5 időpont"
+
+#: templates/settings.php:448
+msgid "6 appointments"
+msgstr "6 időpont"
+
+#: templates/settings.php:449
+msgid "7 appointments"
+msgstr "7 időpont"
+
+#: templates/settings.php:450
+msgid "8 appointments"
+msgstr "8 időpont"
+
+#: templates/settings.php:451
+msgid "9 appointments"
+msgstr "9 időpont"
+
+#: templates/settings.php:452
+msgid "10 appointments"
+msgstr "10 időpont"
+
+#: templates/settings.php:453
+msgid "15 appointments"
+msgstr "15 időpont"
+
+#: templates/settings.php:454
+msgid "20 appointments"
+msgstr "20 időpont"
+
+#: templates/settings.php:455
+msgid "25 appointments"
+msgstr "25 időpont"
+
+#: templates/settings.php:456
+msgid "50 appointments"
+msgstr "50 időpont"
+
+#: templates/settings.php:471
+msgid "New Appointment Default"
+msgstr "Alapértelmezett új időpont"
+
+#: templates/settings.php:473
+msgid ""
+"Would you like your appointment requests to go into a pending list or should "
+"they be approved immediately?"
+msgstr ""
+"Szeretné, hogy a felhasználók által lefoglalt időpont automatikusan "
+"jóváhagyásra kerüljön vagy tegyük őket függő állapotba?"
+
+#: templates/settings.php:479
+msgid "Set as Pending"
+msgstr "Függő állapot"
+
+#: templates/settings.php:480
+msgid "Approve Immediately"
+msgstr "Azonnali jóváhagyás"
+
+#: templates/settings.php:496
+msgid "Display Options"
+msgstr "Megjelenítési opciók"
+
+#: templates/settings.php:504
+msgid "Hide \"Default\" in the calendar switcher"
+msgstr "Rejtse el az \"Alapértelmezett\" -et a naptár választóban"
+
+#: templates/settings.php:510
+msgid "Hide weekends in the calendar"
+msgstr "Rejtse el a hétvégéket a naptárban"
+
+#: templates/settings.php:516
+msgid "Hide \"Add to Calender\" button in the Profile appointment list"
+msgstr "A \"Hozzáadás a naptárhoz\" gomb elrejtése a Profil oldalon"
+
+#: templates/settings.php:522
+msgid "Hide time slots (when a time slot title exists)"
+msgstr "Időblokk elrejtése (amikor van létező időblokk)"
+
+#: templates/settings.php:528
+msgid "Hide end times (show only start times)"
+msgstr "Csak kezdőidőpont mutatása"
+
+#: templates/settings.php:534
+msgid "Hide the number of available time slots"
+msgstr "Elérhető időpontok számának elrejtése"
+
+#: templates/settings.php:540
+msgid ""
+"Hide the already booked time slots (cannot be used with \"Public Appointments"
+"\")"
+msgstr ""
+"Lefoglalt időpontok elrejtése (nem használható \"Publikus foglalás\"-nál)"
+
+#: templates/settings.php:546
+msgid "Public Appointments (show names under booked appointments)"
+msgstr "Publikus foglalás (nevek mutatása a lefoglalt időpontok alatt)"
+
+#: templates/settings.php:554
+msgid "Other Options"
+msgstr "Egyéb opciók"
+
+#: templates/settings.php:562
+msgid "Do not allow users to cancel their own appointments."
+msgstr "Foglalás lemondásának tiltása a felhasználók számára"
+
+#: templates/settings.php:568
+msgid ""
+"Redirect users (except Admins and Booking Agents) from the \"/wp-admin/\" "
+"URL."
+msgstr ""
+"Felhasználók átirányítása (kivéve Admin és Foglaló ügynök) a /wp-admin/\" "
+"URL-ről."
+
+#: templates/settings.php:574
+msgid "Hide \"Appointments\" menu from Admin Bar."
+msgstr "\"Időpontok\" elrejtése az Admin sávból"
+
+#: templates/settings.php:581
+msgid "Front-End Color Settings"
+msgstr "Front-End színbeállítások"
+
+#: templates/settings.php:631
+msgid ""
+"If you DO NOT want to send emails for any of the actions listed below, just "
+"remove the email subject or content text (or both) and the email will not be "
+"sent for that notification."
+msgstr ""
+"Ha NEM szeretne emailt küldeni bármely lentebb sorolt események hatására, "
+"akkor törölje az email tárgyát vagy tartalmát (vagy mindkettőt) és az email "
+"nem lesz kiküldve."
+
+#: templates/settings.php:636
+msgid "Customer Emails"
+msgstr "Ügyfél emailek"
+
+#: templates/settings.php:637
+msgid "Admin/Agent Emails"
+msgstr "Admin/Ügynök emailek"
+
+#: templates/settings.php:662
+msgid "Header/Logo Image"
+msgstr "Fejléc/Logó kép"
+
+#: templates/settings.php:665
+msgid ""
+"Choose an image for your custom emails. Keep it 600px or less for best "
+"results."
+msgstr ""
+"Válasszon egy képet az egyéni emailhez. A legjobb eredményhez válasszon "
+"600px-eset vagy kisebbet."
+
+#: templates/settings.php:668
+msgid "Upload Logo"
+msgstr "Logó feltöltése"
+
+#: templates/settings.php:670
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: templates/settings.php:678
+msgid ""
+"Which Administrator or Booking Agent user should receive the notification "
+"emails by default?"
+msgstr ""
+"Melyik Admin vagy Foglaló ügynök kapja az értesítő emaileket "
+"alapértelmezettként?"
+
+#: templates/settings.php:680
+msgid ""
+"By default, Booked uses the \"Settings > General > E-mail Address\" setting. "
+"Also, each custom calendar can have their own user notification setting, "
+"this is just the default."
+msgstr ""
+"Alapértelmezettként a \"Beaállítások > Általános > E-mail címek\" beállítást "
+"használja a Booked bővítmény. Lehetőség van az egyéni naptárak külön "
+"felhasználókat rendelni, ez csak az alapértelmezés"
+
+#: templates/settings.php:696
+msgid "Choose a default user for notifications"
+msgstr "Válasszon alapértelmezett felhasználót az értesítésekhez"
+
+#: templates/settings.php:718
+msgid "Having Email Issues?"
+msgstr "Email problémákat észlelt?"
+
+#: templates/settings.php:719
+#, php-format
+msgid "Try using an SMTP plugin like %s or %s"
+msgstr "Try using an SMTP plugin like %s or %s"
+
+#: templates/settings.php:721
+msgid "Emails ONLY NOT sending to Admins/Agents?"
+msgstr "Emails ONLY NOT sending to Admins/Agents?"
+
+#: templates/settings.php:722
+msgid ""
+"Some SMTP clients reject emails being sent \"from\" your customers. Google "
+"is one of them, but they simply change the name of the sender to prevent the "
+"rejection. Others do not. You can check the following option to \"Force the "
+"sender name/email\", but you will not be able to reply directly to the "
+"notification emails coming from customers."
+msgstr ""
+"Some SMTP clients reject emails being sent \"from\" your customers. Google "
+"is one of them, but they simply change the name of the sender to prevent the "
+"rejection. Others do not. You can check the following option to \"Force the "
+"sender name/email\", but you will not be able to reply directly to the "
+"notification emails coming from customers."
+
+#: templates/settings.php:726
+msgid "Force sender email"
+msgstr "Force sender email"
+
+#: templates/settings.php:733
+msgid "Still not working?"
+msgstr "Still not working?"
+
+#: templates/settings.php:734
+msgid ""
+"If you are still having issues, check the box below to disable the Booked "
+"mailer and let WordPress handle the emails completely."
+msgstr ""
+"If you are still having issues, check the box below to disable the Booked "
+"mailer and let WordPress handle the emails completely."
+
+#: templates/settings.php:738
+msgid "Disable Booked mailer, let WordPress handle it."
+msgstr "Disable Booked mailer, let WordPress handle it."
+
+#: templates/settings.php:749
+msgid "Customer Appointment Reminder"
+msgstr "Ügyfél időpont emlékeztető"
+
+#: templates/settings.php:751 templates/settings.php:993
+msgid "When do you want to send out appointment reminders?"
+msgstr "Mikor szeretné kiküldeni az időpont emlékeztetőket?"
+
+#: templates/settings.php:757 templates/settings.php:999
+msgid "At appointment time"
+msgstr "A találkozó időpontjában"
+
+#: templates/settings.php:758 templates/settings.php:1000
+msgid "5 minutes before"
+msgstr "5 perccel előtte"
+
+#: templates/settings.php:759 templates/settings.php:1001
+msgid "10 minutes before"
+msgstr "10 perccel előtte"
+
+#: templates/settings.php:760 templates/settings.php:1002
+msgid "15 minutes before"
+msgstr "15 perccel előtte"
+
+#: templates/settings.php:761 templates/settings.php:1003
+msgid "30 minutes before"
+msgstr "30 perccel előtte"
+
+#: templates/settings.php:762 templates/settings.php:1004
+msgid "45 minutes before"
+msgstr "45 perccel előtte"
+
+#: templates/settings.php:763 templates/settings.php:1005
+msgid "1 hour before"
+msgstr "1 órával előtte"
+
+#: templates/settings.php:764 templates/settings.php:1006
+msgid "2 hours before"
+msgstr "2 órával előtte"
+
+#: templates/settings.php:765 templates/settings.php:1007
+msgid "3 hours before"
+msgstr "3 órával előtte"
+
+#: templates/settings.php:766 templates/settings.php:1008
+msgid "4 hours before"
+msgstr "4 órával előtte"
+
+#: templates/settings.php:767 templates/settings.php:1009
+msgid "5 hours before"
+msgstr "5 órával előtte"
+
+#: templates/settings.php:768 templates/settings.php:1010
+msgid "6 hours before"
+msgstr "6 órával előtte"
+
+#: templates/settings.php:769 templates/settings.php:1011
+msgid "12 hours before"
+msgstr "12 órával előtte"
+
+#: templates/settings.php:770 templates/settings.php:1012
+msgid "24 hours before"
+msgstr "24 órával előtte"
+
+#: templates/settings.php:771 templates/settings.php:1013
+msgid "2 days before"
+msgstr "2 nappal előtte"
+
+#: templates/settings.php:772 templates/settings.php:1014
+msgid "3 days before"
+msgstr "3 órával előtte"
+
+#: templates/settings.php:773 templates/settings.php:1015
+msgid "4 days before"
+msgstr "4 órával előtte"
+
+#: templates/settings.php:774 templates/settings.php:1016
+msgid "5 days before"
+msgstr "5 órával előtte"
+
+#: templates/settings.php:775 templates/settings.php:1017
+msgid "6 days before"
+msgstr "6 órával előtte"
+
+#: templates/settings.php:776 templates/settings.php:1018
+msgid "1 week before"
+msgstr "1 héttel előtte"
+
+#: templates/settings.php:777 templates/settings.php:1019
+msgid "2 weeks before"
+msgstr "2 héttel előtte"
+
+#: templates/settings.php:778 templates/settings.php:1020
+msgid "3 weeks before"
+msgstr "3 héttel előtte"
+
+#: templates/settings.php:779 templates/settings.php:1021
+msgid "4 weeks before"
+msgstr "4 héttel előtte"
+
+#: templates/settings.php:780 templates/settings.php:1022
+msgid "6 weeks before"
+msgstr "6 héttel előtte"
+
+#: templates/settings.php:781 templates/settings.php:1023
+msgid "2 months before"
+msgstr "2 hónappal előtte"
+
+#: templates/settings.php:782 templates/settings.php:1024
+msgid "3 months before"
+msgstr "3 hónappal előtte"
+
+#: templates/settings.php:793 templates/settings.php:1035
+msgid "Please Note:"
+msgstr "Kérjük, vegye figyelembe:"
+
+#: templates/settings.php:793 templates/settings.php:1035
+msgid ""
+"WordPress crons do not run unless someone visits your site. Because of this, "
+"some reminders might not get sent out. To prevent this from happening, you "
+"would need to setup cron to run from the server level using the following "
+"command:"
+msgstr ""
+"WordPress crons do not run unless someone visits your site. Because of this, "
+"some reminders might not get sent out. To prevent this from happening, you "
+"would need to setup cron to run from the server level using the following "
+"command:"
+
+#: templates/settings.php:813
+msgid "Customer Appointment Reminder Content"
+msgstr "Egyéni Időpont emlékeztető tartalom"
+
+#: templates/settings.php:816 templates/settings.php:1057
+msgid ""
+"This is the email content for appoinment reminders. Some tokens you can use:"
+msgstr ""
+"Ez az email tartalom az időpont emlékeztetőkhöz. Néhány token használható:"
+
+#: templates/settings.php:851
+msgid "User Registration"
+msgstr "Felhasználó regisztráció"
+
+#: templates/settings.php:854
+msgid ""
+"The email content that is sent to the user upon registration (using the "
+"Booked registration form). Some tokens you can use:"
+msgstr ""
+"Regisztráció során küldött email a felhasználó számára. Néhány token "
+"használható:"
+
+#: templates/settings.php:856
+msgid "To display the person's name."
+msgstr "A személy nevének megjelenítéséhez."
+
+#: templates/settings.php:857
+msgid "To display the person's email address."
+msgstr "A személy e-mail címének megjelenítéséhez."
+
+#: templates/settings.php:858
+msgid "To display the username for login."
+msgstr "Mutassa az ügyfél felhasználónevét."
+
+#: templates/settings.php:859
+msgid "To display the password for login."
+msgstr "A jelszó bejelentkezéshez."
+
+#: templates/settings.php:889
+msgid "Appointment Confirmation"
+msgstr "Időpont megerősítése"
+
+#: templates/settings.php:892
+msgid ""
+"The email content that is sent to the user upon appointment creation. Some "
+"tokens you can use:"
+msgstr ""
+"Ez az email egy időpont foglalásánál kerül kiküldésre. Használható tokenek:"
+
+#: templates/settings.php:926
+msgid "Appointment Approval"
+msgstr "Időpont jóváhagyása"
+
+#: templates/settings.php:929
+msgid ""
+"The email content that is sent to the user upon appointment approval. Some "
+"tokens you can use:"
+msgstr ""
+"Ez az email az időpont jóváhagyásával kerül kiküldésre. Használható tokenek: "
+
+#: templates/settings.php:963 templates/settings.php:1128
+msgid "Appointment Cancellation"
+msgstr "Időpont lemondása"
+
+#: templates/settings.php:966
+msgid ""
+"The email content that is sent to the user upon appointment cancellation. "
+"Some tokens you can use:"
+msgstr ""
+"Ez az üzenet az időpont lemondásával kerül kiküldésre. Használható tokenek: "
+
+#: templates/settings.php:991
+msgid "Admin/Agent Appointment Reminder"
+msgstr "Admin/Ügynök időpont emlékeztető"
+
+#: templates/settings.php:1054
+msgid "Admin/Agent Appointment Reminder Content"
+msgstr "Admin/Ügynök időpont emlékeztető tartalom"
+
+#: templates/settings.php:1092
+msgid "Appointment Request"
+msgstr "Időpont kérés"
+
+#: templates/settings.php:1095
+msgid ""
+"The email content that is sent (to the selected admin users above) upon "
+"appointment request. Some tokens you can use:"
+msgstr ""
+"Ez az email a kiválasztott adminnak kerül kiküldésre az időpont kéréssel "
+"kapcsolatban. Használható tokenek:"
+
+#: templates/settings.php:1131
+msgid ""
+"The email content that is sent (to the selected admin users above) upon "
+"cancellation. Some tokens you can use:"
+msgstr ""
+"Ez az email a kiválasztott adminnak kerül kiküldésre az időpont lemondásával "
+"kapcsolatban. Használható tokenek:"
+
+#: templates/settings.php:1172
+msgid "Editing time slots for:"
+msgstr "A következő naptár szerkesztése:"
+
+#: templates/settings.php:1203
+msgid "Add Single"
+msgstr "Egyes"
+
+#: templates/settings.php:1204
+msgid "Add Bulk"
+msgstr "Csoportos"
+
+#: templates/settings.php:1256
+msgid "No \"Start date\" has been set for these:"
+msgstr "Nincs \"Kezdő időpont\" rendelve ezekhez:"
+
+#: templates/settings.php:1295 templates/settings.php:1414
+msgid "Start date"
+msgstr "Kezdő időpont"
+
+#: templates/settings.php:1296 templates/settings.php:1415
+msgid "Optional End date"
+msgstr "Opcionális záró időpont"
+
+#: templates/settings.php:1311 templates/settings.php:1420
+msgid "Disable appointments"
+msgstr "Találkozók kikapcsolása"
+
+#: templates/settings.php:1370 templates/settings.php:1426
+msgid "+ Single Time Slot"
+msgstr "+ Időblokk"
+
+#: templates/settings.php:1371 templates/settings.php:1427
+msgid "+ Bulk Time Slots"
+msgstr "+ Időpontok"
+
+#: templates/settings.php:1384
+msgid "Add Date(s)"
+msgstr "Dátumok hozzáadása"
+
+#: templates/settings.php:1385
+msgid "Save Custom Time Slots"
+msgstr "Egyéni időblokk mentése"
+
+#: templates/settings.php:1386 templates/settings.php:1558
+msgid "Saving"
+msgstr "Mentés"
+
+#: templates/settings.php:1435 templates/settings.php:1440
+msgid "Close"
+msgstr "Bezárás"
+
+#: templates/settings.php:1529
+msgid "HTML allowed"
+msgstr "HTML engedélyezett"
+
+#: templates/settings.php:1557
+msgid "Save Custom Fields"
+msgstr "Egyéni mezők mentése"
+
+#: templates/settings.php:1572
+msgid "Display the Default Calendar"
+msgstr "Alapértelmezett naptár mutatása"
+
+#: templates/settings.php:1573
+msgid ""
+"You can use this shortcode to display the front-end booking calendar. Use "
+"the \"calendar\" attribute to display a specific calendar. Use the \"year\" "
+"and/or \"month\" attributes to display a specific month and/or year. You can "
+"also use the \"switcher\" variable to add a calendar switcher dropdown above "
+"the calendar. Your users can then switch between each calendar you've "
+"created."
+msgstr ""
+"You can use this shortcode to display the front-end booking calendar. Use "
+"the \"calendar\" attribute to display a specific calendar. Use the \"year\" "
+"and/or \"month\" attributes to display a specific month and/or year. You can "
+"also use the \"switcher\" variable to add a calendar switcher dropdown above "
+"the calendar. Your users can then switch between each calendar you've "
+"created."
+
+#: templates/settings.php:1583
+msgid "Display a Custom Calendar"
+msgstr "Egyéni naptár mutatása"
+
+#: templates/settings.php:1601
+msgid "Display the Login / Register Form"
+msgstr "Bejelentkezési/Belépési form mutatása"
+
+#: templates/settings.php:1602
+msgid ""
+"If the Registration tab doesn't show up, be sure to allow registrations from "
+"the Settings > General page."
+msgstr ""
+"Ha a regisztrációs fül nem jelenik meg, bizonyosodjon meg arról, hogy a "
+"regisztrációs form engedélyezve van a Beállítások > Általános oldalon."
+
+#: templates/settings.php:1609
+msgid "Display User Profile"
+msgstr "Felhasználói profil mutatása"
+
+#: templates/settings.php:1610
+msgid ""
+"You can use this shortcode to display the profile content on any page. If a "
+"user is not logged in, they will see the login form instead."
+msgstr ""
+"Ezt a shortcode-ot bármely oldalon használhatod a profil oldal "
+"megjelenítésére. Ha a felhasználó nincs bejelentkezve, akkor a regisztrációs "
+"formot fogja látni."
+
+#: templates/settings.php:1617
+msgid "Display User's Appointments"
+msgstr "Mutassa a Felhasználó időpontjait"
+
+#: templates/settings.php:1618
+msgid ""
+"You can use this shortcode to display just the currently logged in user's "
+"upcoming appointments."
+msgstr ""
+"Ezt a shortcode-ot arra tudod használni, hogy a bejelentkezett felhasználók "
+"lássák a közelgő időpontjaikat."
+
+#: templates/settings.php:1638
+msgid "Export Appointments"
+msgstr "Időpontok exportálása"
+
+#: templates/settings.php:1639
+msgid ""
+"You can export all appointments or specify what you want by choosing from "
+"the below options."
+msgstr ""
+"Az összes időpontot exportálhatod vagy határozd meg mit szeretnél az alábbi "
+"opciókból."
+
+#: templates/settings.php:1642
+msgid "Appointment Dates"
+msgstr "Találkozó dátumok"
+
+#: templates/settings.php:1644
+msgid "Upcoming & Past"
+msgstr "Közelgő és múltbéli"
+
+#: templates/settings.php:1645
+msgid "Only Upcoming"
+msgstr "Csak közelgő"
+
+#: templates/settings.php:1646
+msgid "Only Past"
+msgstr "Csak múltbéli"
+
+#: templates/settings.php:1652
+msgid "Approved and/or Pending"
+msgstr "Jóváhagyott és/vagy függő"
+
+#: templates/settings.php:1654
+msgid "Approved & Pending"
+msgstr "Jóváhagyott és függő"
+
+#: templates/settings.php:1655
+msgid "Only Approved"
+msgstr "Csak jóváhagyott"
+
+#: templates/settings.php:1656
+msgid "Only Pending"
+msgstr "Csak függő"
+
+#: templates/settings.php:1682
+msgid "Export Appointments to CSV"
+msgstr "Időpontok exportálása CSV-ben"
+
+#: templates/welcome.php:3
+#, php-format
+msgid "Welcome to %s"
+msgstr "Welcome to %s"
+
+#: templates/welcome.php:5
+#, php-format
+msgid ""
+"Thank you for choosing %s! If this is your first time using %s, you will "
+"find some helpful \"Getting Started\" links below. If you just updated the "
+"plugin, you can find out what's new in the \"What's New\" section below."
+msgstr ""
+"Thank you for choosing %s! If this is your first time using %s, you will "
+"find some helpful \"Getting Started\" links below. If you just updated the "
+"plugin, you can find out what's new in the \"What's New\" section below."
+
+#: templates/welcome.php:19
+msgid "Getting Started"
+msgstr "Getting Started"
+
+#: templates/welcome.php:21
+msgid "Installation & Setup Guide"
+msgstr "Múltbéli időpont"
+
+#: templates/welcome.php:23
+msgid "Default Time Slots"
+msgstr "Alapértelmezett időblokk"
+
+#: templates/welcome.php:28
+msgid "View all Guides"
+msgstr "View all Guides"
+
+#: templates/welcome.php:29
+msgid "Get Started"
+msgstr "Get Started"
+
+#. Plugin Name of the plugin/theme
+msgid "Booked"
+msgstr "Booked"
+
+#. Plugin URI of the plugin/theme
+msgid "https://getbooked.io"
+msgstr "https://getbooked.io"
+
+#. Description of the plugin/theme
+msgid "Powerful appointment booking made simple."
+msgstr "Powerful appointment booking made simple."
+
+#. Author of the plugin/theme
+msgid "Boxy Studio"
+msgstr "Boxy Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://boxystudio.com"
+msgstr "https://boxystudio.com"
